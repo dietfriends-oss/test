@@ -13,7 +13,7 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        echo -e ${TEST_SH} > test.sh
+        echo -e ${asdf} > test.sh
         cat test.sh
       env:
         asdf: ${secrets.TEST_SH} 
