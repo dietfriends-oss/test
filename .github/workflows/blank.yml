@@ -16,4 +16,4 @@ jobs:
         echo -e ${asdf} > test.sh
         cat test.sh
       env:
-        asdf: ${secrets.TEST_SH} 
+        asdf: ${{secrets.TEST_SH}} 
